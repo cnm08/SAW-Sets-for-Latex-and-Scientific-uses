@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "AccessMaths Selection Sets", "AccessMaths Selection Sets.vdproj", "{99CE6B03-EFE6-46E9-BC15-F50D3C12EF6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99CE6B03-EFE6-46E9-BC15-F50D3C12EF6A}.Debug|Default.ActiveCfg = Debug
+		{99CE6B03-EFE6-46E9-BC15-F50D3C12EF6A}.Debug|Default.Build.0 = Debug
+		{99CE6B03-EFE6-46E9-BC15-F50D3C12EF6A}.Release|Default.ActiveCfg = Release
+		{99CE6B03-EFE6-46E9-BC15-F50D3C12EF6A}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

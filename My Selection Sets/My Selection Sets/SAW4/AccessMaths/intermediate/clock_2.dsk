@@ -1,0 +1,21 @@
+Desktop for SAW
+Version=42
+Size=800,600
+
+Task=EXPLORER.EXE
+Module=C:\WINDOWS\EXPLORER.EXE
+WindowClass=Progman, 0, 0, 800, 600, 1, 0, 5
+WindowClass=Shell_TrayWnd, -2, 572, 802, 602, 1, 1, 5
+WindowClass=CabinetWClass, 218, 15, 730, 476, 1, 0, 5
+
+Task=SAW4.EXE
+Module=C:\PROGRAM FILES\SAW4\PROGRAM.ENG\SAW4.EXE
+WindowClass=Afx:400000:b:1446:6:1117, 90, 469, 730, 599, 1, 0, 5
+
+Task=ACCMATH.EXE
+Module=C:\PROGRAM FILES\ACCESSMATH 4\ACCMATH.EXE
+WindowClass=Afx:400000:b:1446:6:18a7, 146, 0, 799, 573, 1, 0, 5
+
+Task=ACLOCK.EXE
+Module=C:\PROGRAM FILES\ACCESSMATH 4\ACLOCK.EXE
+WindowClass=Afx:400000:b:1446:6:1197, 152, 1, 752, 412, 1, 0, 5

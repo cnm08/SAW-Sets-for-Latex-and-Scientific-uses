@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "AccessMaths Selection Sets", "FXEquation Selection Sets.vdproj", "{B36E5EE0-15D0-44A5-974D-1B88FF1DA162}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B36E5EE0-15D0-44A5-974D-1B88FF1DA162}.Debug|Default.ActiveCfg = Debug
+		{B36E5EE0-15D0-44A5-974D-1B88FF1DA162}.Debug|Default.Build.0 = Debug
+		{B36E5EE0-15D0-44A5-974D-1B88FF1DA162}.Release|Default.ActiveCfg = Release
+		{B36E5EE0-15D0-44A5-974D-1B88FF1DA162}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

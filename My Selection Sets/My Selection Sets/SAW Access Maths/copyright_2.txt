@@ -1,0 +1,21 @@
+SAW Selection Sets for FXEquation 4.1
+
+SAW (Special Access to Windows) is copyright of The ACE Centre Advisory Trust
+
+These selection sets require SAW 5, which is free of charge and open source.  Support can be purchased from the ACE Centre.
+
+These files may not be sold on its own or as part of an application except by agreement with the ACE Centre. 
+
+FXMaths and FXEquation are copyright Efofex software limited and can be obtained from them.
+
+www.efofex.com
+
+The ACE Centre
+92 Windmill Road
+Oxford OX3 7DR
++44 (0)1865 759800 fax +44 (0)1865 759810
+sales@ace-centre.org.uk
+www.ace-centre.org.uk
+
+ACE Centre December 2007
+

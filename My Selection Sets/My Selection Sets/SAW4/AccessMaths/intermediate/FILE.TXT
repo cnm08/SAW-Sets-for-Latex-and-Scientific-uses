@@ -1,0 +1,300 @@
+Header for SAW
+  Version = 32
+  Saw Bounds = 2, 77, 138, 468
+  Screen Size = 1024, 768
+  Startup Script = "visit item 20"
+End of Header
+Item 0
+  Bounds = 0, 0, 136, 391
+  Item 18
+    Bounds = 0, 0, 138, 411
+    Font Size = 1
+    Normal Foreground Colour = 192, 192, 192
+    Normal Background Colour = 192, 192, 192
+    Normal Border Colour = 192, 192, 192
+    Highlight Foreground Colour = 192, 192, 192
+    Highlight Background Colour = 192, 192, 192
+    Highlight Border Colour = 192, 192, 192
+    Border Highlight Thickness = Thick
+    Item 35
+      Bounds = 15, 3, 129, 390
+      Display = "exit are you sure?"
+      Text Not Shown
+      Font Size = 1
+      Normal Background Colour = 192, 192, 192
+      Highlight Background Colour = 192, 192, 192
+      Border Style = No Border
+      Border Highlight Thickness = Thick
+      Popup
+      Hidden
+      Not Visited
+      Item 36
+        Bounds = 15, 9, 129, 81
+        Display = "leave \nAccess Maths"
+        Graphic = "exit.bmp"
+        Graphic Shown
+        Font Size = 1
+        Normal Background Colour = 255, 255, 255
+        Highlight Background Colour = 255, 255, 255
+        Border Style = No Border
+        Border Highlight Thickness = Thick
+        Arrangement Type = 1
+        Not Visited
+      End of Item 36
+      Item 37
+        Bounds = 21, 108, 126, 153
+        Display = "are you\nsure?"
+        Font Size = -18
+        Font Bold
+        Normal Background Colour = 192, 192, 192
+        Highlight Background Colour = 192, 192, 192
+        Border Style = No Border
+        Border Highlight Thickness = Thick
+        Not Visited
+      End of Item 37
+      Item 38
+        Bounds = 30, 165, 114, 210
+        Select Script = normal item\n;make backup\nkey <esc>,hold,ctrl.a\nwait 2\nkey backup.mth<esc>enter.\nwait 2\nkey y\n;perform exit\nsend output text\npopup hide\nopen selection set \saw\menu\user0.ss
+        Display = "yes"
+        Graphic = "yes.bmp"
+        Output = "<esc>,hold,ctrl.q"
+        Text Not Shown
+        Graphic Shown
+        Font Size = 1
+        Normal Background Colour = 255, 255, 255
+        Normal Border Colour = 128, 128, 128
+        Highlight Background Colour = 255, 255, 255
+        Border Highlight Thickness = Thick
+      End of Item 38
+      Item 39
+        Bounds = 30, 216, 114, 261
+        Select Script = normal item\npopup hide\nvisit item 20
+        Display = "no"
+        Graphic = "no.bmp"
+        Text Not Shown
+        Graphic Shown
+        Font Size = 1
+        Normal Background Colour = 255, 255, 255
+        Normal Border Colour = 128, 128, 128
+        Highlight Background Colour = 255, 255, 255
+        Border Highlight Thickness = Thick
+      End of Item 39
+    End of Item 35
+    Item 30
+      Bounds = 15, 3, 129, 390
+      Display = "print are you sure?"
+      Text Not Shown
+      Font Size = 1
+      Normal Background Colour = 192, 192, 192
+      Highlight Background Colour = 192, 192, 192
+      Border Style = No Border
+      Border Highlight Thickness = Thick
+      Popup
+      Hidden
+      Not Visited
+      Item 31
+        Bounds = 21, 15, 126, 75
+        Display = "print drawing"
+        Graphic = "print.bmp"
+        Graphic Shown
+        Font Size = 1
+        Normal Background Colour = 255, 255, 255
+        Highlight Background Colour = 255, 255, 255
+        Border Style = No Border
+        Border Highlight Thickness = Thick
+        Arrangement Type = 1
+        Not Visited
+      End of Item 31
+      Item 32
+        Bounds = 21, 108, 126, 153
+        Display = "are you\nsure?"
+        Font Size = -18
+        Font Bold
+        Normal Background Colour = 192, 192, 192
+        Highlight Background Colour = 192, 192, 192
+        Border Style = No Border
+        Border Highlight Thickness = Thick
+        Not Visited
+      End of Item 32
+      Item 33
+        Bounds = 30, 165, 114, 210
+        Select Script = normal item\nsend output text\nOK\npopup hide\nvisit item 20
+        Display = "yes"
+        Graphic = "yes.bmp"
+        Output = "<esc>,hold,ctrl.p"
+        Text Not Shown
+        Graphic Shown
+        Font Size = 1
+        Normal Background Colour = 255, 255, 255
+        Normal Border Colour = 128, 128, 128
+        Highlight Background Colour = 255, 255, 255
+        Border Highlight Thickness = Thick
+      End of Item 33
+      Item 34
+        Bounds = 30, 216, 114, 261
+        Select Script = normal item\npopup hide\nvisit item 20
+        Display = "no"
+        Graphic = "no.bmp"
+        Text Not Shown
+        Graphic Shown
+        Font Size = 1
+        Normal Background Colour = 255, 255, 255
+        Normal Border Colour = 128, 128, 128
+        Highlight Background Colour = 255, 255, 255
+        Border Highlight Thickness = Thick
+      End of Item 34
+    End of Item 30
+    Item 25
+      Bounds = 12, 0, 126, 387
+      Display = "new are you sure?"
+      Text Not Shown
+      Font Size = 1
+      Normal Background Colour = 192, 192, 192
+      Highlight Background Colour = 192, 192, 192
+      Border Style = No Border
+      Border Highlight Thickness = Thick
+      Popup
+      Hidden
+      Not Visited
+      Item 26
+        Bounds = 18, 12, 123, 72
+        Display = "new drawing"
+        Graphic = "new2.bmp"
+        Graphic Shown
+        Font Size = 1
+        Normal Background Colour = 255, 255, 255
+        Highlight Background Colour = 255, 255, 255
+        Border Style = No Border
+        Border Highlight Thickness = Thick
+        Arrangement Type = 1
+        Not Visited
+      End of Item 26
+      Item 27
+        Bounds = 18, 105, 123, 150
+        Display = "are you\nsure?"
+        Font Size = -18
+        Font Bold
+        Normal Background Colour = 192, 192, 192
+        Highlight Background Colour = 192, 192, 192
+        Border Style = No Border
+        Border Highlight Thickness = Thick
+        Not Visited
+      End of Item 27
+      Item 28
+        Bounds = 27, 162, 111, 207
+        Select Script = normal item\nsend output text\ncancel ;incase dialogue is open\npopup hide\nvisit item 20
+        Display = "yes"
+        Graphic = "yes.bmp"
+        Output = "<esc>,hold,ctrl.ny"
+        Text Not Shown
+        Graphic Shown
+        Font Size = 1
+        Normal Background Colour = 255, 255, 255
+        Normal Border Colour = 128, 128, 128
+        Highlight Background Colour = 255, 255, 255
+        Border Highlight Thickness = Thick
+      End of Item 28
+      Item 29
+        Bounds = 27, 213, 111, 258
+        Select Script = normal item\npopup hide\nvisit item 20
+        Display = "no"
+        Graphic = "no.bmp"
+        Text Not Shown
+        Graphic Shown
+        Font Size = 1
+        Normal Background Colour = 255, 255, 255
+        Normal Border Colour = 128, 128, 128
+        Highlight Background Colour = 255, 255, 255
+        Border Highlight Thickness = Thick
+      End of Item 29
+    End of Item 25
+    Item 20
+      Bounds = 48, 6, 105, 63
+      Select Script = normal item\nsound click\nsay speech text\npopup show 25\nvisit item 28\n
+      Display = "new"
+      Graphic = "new2.bmp"
+      Output = "<esc>,hold,ctrl.n"
+      Graphic Shown
+      Font Name = "System"
+      Font Size = 1
+      Normal Background Colour = 255, 255, 255
+      Normal Border Colour = 128, 128, 128
+      Highlight Background Colour = 255, 255, 255
+      Border Highlight Thickness = Thick
+      Arrangement Type = 1
+    End of Item 20
+    Item 19
+      Bounds = 48, 69, 105, 126
+      Select Script = normal item\nsound click\nsay speech text\nkey <esc>,hold,alt.fa\nkey backup.mth<esc>enter.y\nwait 1\nsend output text\nopen selection set open
+      Display = "open"
+      Graphic = "open.bmp"
+      Output = "<esc>,hold,ctrl.o"
+      Graphic Shown
+      Font Name = "System"
+      Font Size = 1
+      Normal Background Colour = 255, 255, 255
+      Normal Border Colour = 128, 128, 128
+      Highlight Background Colour = 255, 255, 255
+      Border Highlight Thickness = Thick
+      Arrangement Type = 1
+    End of Item 19
+    Item 21
+      Bounds = 48, 132, 105, 189
+      Select Script = normal item\nsound click\nsay speech text\nsend output text\nopen selection set save
+      Display = "save"
+      Graphic = "save.bmp"
+      Output = "<esc>,hold,ctrl.a"
+      Graphic Shown
+      Font Name = "System"
+      Font Size = 1
+      Normal Background Colour = 255, 255, 255
+      Normal Border Colour = 128, 128, 128
+      Highlight Background Colour = 255, 255, 255
+      Border Highlight Thickness = Thick
+      Arrangement Type = 1
+    End of Item 21
+    Item 22
+      Bounds = 48, 195, 105, 252
+      Select Script = normal item\nsound click\nsay speech text\npopup show 30\nvisit item 33\n
+      Display = "print"
+      Graphic = "print.bmp"
+      Output = "<esc>,hold,ctrl.p"
+      Graphic Shown
+      Font Name = "System"
+      Font Size = 1
+      Normal Background Colour = 255, 255, 255
+      Normal Border Colour = 128, 128, 128
+      Highlight Background Colour = 255, 255, 255
+      Border Highlight Thickness = Thick
+      Arrangement Type = 1
+    End of Item 22
+    Item 24
+      Bounds = 48, 258, 105, 315
+      Select Script = normal item\nsound click\nsay speech text\npopup show 35\nvisit item 38\n
+      Display = "exit"
+      Graphic = "exit.bmp"
+      Output = "<esc>,hold,ctrl.c<esc>,hold,ctrl.q"
+      Graphic Shown
+      Font Name = "System"
+      Font Size = 1
+      Normal Background Colour = 255, 255, 255
+      Normal Border Colour = 128, 128, 128
+      Highlight Background Colour = 255, 255, 255
+      Border Highlight Thickness = Thick
+      Arrangement Type = 1
+    End of Item 24
+    Item 23
+      Bounds = 48, 321, 105, 378
+      Select Script = normal item\nsound click\nsay speech text\nsend output text\nopen selection set geometry
+      Display = "<<"
+      Font Name = "Courier New"
+      Font Size = -18
+      Font Bold
+      Normal Background Colour = 255, 255, 255
+      Normal Border Colour = 128, 128, 128
+      Highlight Background Colour = 255, 255, 255
+      Border Highlight Thickness = Thick
+      Arrangement Type = 1
+    End of Item 23
+  End of Item 18
+End of Item 0
